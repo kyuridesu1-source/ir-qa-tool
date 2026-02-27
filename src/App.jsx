@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 
 const STORAGE_KEY = "ir-qa-database";
 const PASSWORD_KEY = "ir-auth";
-const CORRECT_PASSWORD = "moin2024ir"; // ← 여기서 비밀번호 변경 가능
+const CORRECT_PASSWORD = "moin2026ir!"; // ← 여기서 비밀번호 변경 가능
 
 function parseTabSeparated(raw) {
   const lines = raw.trim().split("\n").filter(l => l.trim());
